@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--Main css-->
+    <link rel="stylesheet" href="style.css">
+    <title>Tarun Sarkar Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo">Portfolio</a>
+
+        <i class="fas fa-bars" id="menu-icon"></i>
+
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, My Name is Tarun Sarkar</h3>
+            <h3>And I am a <span class="multiple-text"></span></h3>
+            <p>Full stack web developer skilled in both front-end and back-end technologies, creating complete web applications from design to deployment.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/tarun.sarkar.9026"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/im.rana.yes?igsh=d2diMmkwbXQyb2h5"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/tarun-sarkar-abcd789"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/tarun429"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <a href="Tarun_Sarkar_cv.pdf" class="btn btn--download" download>Download CV</a>
+        
+        <div class="home-img">
+            <img src="tarundp.png" alt="dp">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="profilepic.png" alt="dp">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About<span> Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Full stack web developer skilled in both front-end and back-end technologies, creating complete web applications from design to deployment.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My<span> Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fas fa-code"></i>
+                <h1>Web Development</h1>
+                <p>Experienced web developer with a passion for creating responsive and user-friendly websites. Proficient in HTML, CSS, JavaScript, and popular frameworks like React and Node.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fas fa-palette"></i>
+                <h1>UI/UX Design</h1>
+                <p>Creative and detail-oriented UI/UX developer with a strong focus on crafting intuitive and visually appealing interfaces. Skilled in user research, prototyping, and design tools like Adobe Photoshop.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fab fa-android"></i>
+                <h1>App Development</h1>
+                <p>Full-stack developer specializing in the MERN stack for building modern and scalable web applications. Proficient in developing both front-end and back-end components with a strong focus on performance and user experience.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+          <!-- Add project links here -->
+          <a href="https://calculator-tarun.netlify.app/" class="portfolio-item", target="_blank">
+            <img src="calculator.png" alt="calculator" style="border-radius: 10px;">
+            <div class="portfolio-info">
+              <h2>Project 1</h2>
+              <h2>A simple calculator</h2>
+            </div>
+          </a>
+          <a href="https://weatherapp-tarun.netlify.app/" class="portfolio-item", target="_blank">
+            <img src="weatherapp.png" alt="weatherapp" style="border-radius: 10px;">
+            <div class="portfolio-info">
+              <h2>Project 2</h2>
+              <h2>simple weather app</h2>
+            </div>
+          </a>
+          <a href="https://shoping-site-eight.vercel.app/" class="portfolio-item", target="_blank">
+            <img src="shopingsite.png" alt="shopingsite" style="border-radius: 10px;">
+            <div class="portfolio-info">
+              <h2>Project 3</h2>
+              <h2>shopingsite</h2>
+            </div>
+          </a>
+        </div>
+      </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span> Me</span></h2>
+
+        <form action="#" class="contact-form">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message" required></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 By<span>Tarun Sarkar | All Rights Reserved</span>
+        </div>
+
+        <div class="footer-icon-top">
+            <a href="#home"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </footer>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- main js -->
+    <script src="main.js"></script>
+</body>
+</html>
